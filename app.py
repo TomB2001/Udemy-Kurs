@@ -35,7 +35,7 @@ def hello_world():
         "expressions.html", **kwargs
         )
 
-@app.route("/data-structures")
+@app.route("/data-structures/")
 def render_data_structures():
     movies =[
         "Leon the Professional",
