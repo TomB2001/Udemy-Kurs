@@ -31,9 +31,7 @@ def hello_world():
         "last_name": last_name
     }
 
-    return render_template(
-        "expressions.html", **kwargs
-        )
+    return render_template("expressions.html", **kwargs)
 
 @app.route("/data-structures/")
 def render_data_structures():
