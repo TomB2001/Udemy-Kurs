@@ -1,0 +1,6 @@
+/* ~ alle siblings nach ...
+* + nur der sibling direkt danach
+*/
+label ~ input{
+    padding: 30px 50px;
+}

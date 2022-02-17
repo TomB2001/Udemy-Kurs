@@ -1,0 +1,5 @@
+
+/* wenn zwischen dl und dt ein > ist muss dt dirktes child zu dl sein, sonst keine veränderung, wenn leerzeichen dazwischen muss dt nur irgend ein child sein, damit es funktioniert */
+dl dt {
+    font-weight: 700;
+}
