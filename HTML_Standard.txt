@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title> <!--Seiten Titel -->
+  </head>
+  <body>
+  </body>
+</html>
+
+<!--kann in VSC mit ! und enter automatisch erstellt werden -->
