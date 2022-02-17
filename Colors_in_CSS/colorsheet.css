@@ -1,0 +1,14 @@
+main{
+    color: red;
+}
+
+a{
+    color: green;
+    text-decoration-color: aqua;
+    border: 1px solid gray;
+    background-color: gold;
+}
+
+p{
+    background-color: rgb(213,22,245)
+}
