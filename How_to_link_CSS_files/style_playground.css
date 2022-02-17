@@ -1,0 +1,18 @@
+h1 {
+    color: green;
+}
+
+/* auswahl einer Klasse mit .Klassenname */
+.red{
+    color: red;
+
+}
+
+/* auswahl einer ID mit #ID-Name */
+#orange{
+    color: orange;
+}
+
+#purple{
+    color: purple;
+}
