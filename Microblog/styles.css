@@ -6,6 +6,7 @@ html{
 }
 body {
     box-sizing: border-box;
+    margin : 0;
 }
 .navbar{
     max-width: 640px;
@@ -57,6 +58,10 @@ body {
 
 }
 
+.form__input {
+    width: 100%;
+  }
+
 .form__label{
     display: block;
     margin-bottom: 10px;
@@ -72,13 +77,13 @@ body {
 }
 
 .form__submit{
-    background-color: #3cd0ff
-    border:none;
+    background-color: #3cd0ff;
+    border: none;
     font-size: 18px;
     font-weight: bold;
     padding: 5px 30px;
     border-radius: 20px;
-    color: rgb(255, 255, 255);
+    color: white;
     cursor: pointer;
 }
 
@@ -102,4 +107,32 @@ body {
 .entry__content{
     font-size: 16px;
     line-height: 150%;
+}
+
+.footer{
+    background-color: #323f43;
+    padding: 40px 0;
+    margin-top: 50px;
+    border-top: 4px solid black;
+    color: white;
+    font-size: 12px;
+}
+
+.footer__content{
+    max-width: 640px;
+    margin : 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer .left{
+    flex-grow: 2;
+    display: flex;
+   flex-direction: column;
+}
+
+.footer .right{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
 }
